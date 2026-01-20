@@ -20,8 +20,8 @@ function App() {
 
   const fetchGames = (query = '') => {
     const url = query
-      ? `http://localhost:3000/list?search=${encodeURIComponent(query)}`
-      : 'http://localhost:3000/list';
+      ? `https://search-app-wmbq.onrender.com/list?search=${encodeURIComponent(query)}`
+      : 'https://search-app-wmbq.onrender.com/list';
 
     fetch(url)
       .then(res => res.json())
