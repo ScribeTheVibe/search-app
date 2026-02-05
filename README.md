@@ -2,8 +2,6 @@
 
 A simple web application that allows users to search for games and view basic pricing information.
 
-[Try it out here](https://search-app-1.vercel.app)
-
 ## Tech Stack
 
 ### Frontend
